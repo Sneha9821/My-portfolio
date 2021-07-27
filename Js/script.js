@@ -10,7 +10,7 @@ window.addEventListener('load', function(){
 // iTyped 
 
 window.ityped.init(document.querySelector('.iTyped'), {
-    strings: ["I'm a Web Developer", 'I Love Html5', 'I Love CSS3', 'I Love Jquery', 'I Love Laravel'],
+    strings: ["We are a Web Developers", 'We Love Html5', 'We Love CSS3', 'We Love Jquery', 'We Love ReactJs'],
     loop: true
 });
 
@@ -186,4 +186,4 @@ function asideSectionTogglerBtn()
     for (let i = 0; i < totalSection; i++) {
         allSection[i].classList.toggle('open');
     }
-}
+}   
