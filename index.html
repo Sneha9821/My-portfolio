@@ -1,20 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <title>My personal portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Template css Files -->
-  <link rel="stylesheet" href="/Css/style.css" type="text/css">
+  <link rel="stylesheet" href="./css/style.css">
 
   <!-- Live Style Switcher - Demo Only -->
-  <link rel="stylesheet" class="alternate-style" title="pink" href="/skins/pink.css" type="text/css">
-  <link rel="stylesheet" class="alternate-style" title="blue" href="/skins/blue.css" type="text/css" disabled>
-  <link rel="stylesheet" class="alternate-style" title="green" href="/skins/green.css" type="text/css" disabled>
-  <link rel="stylesheet" class="alternate-style" title="orange" href="/skins/orange.css" type="text/css" disabled>
-  <link rel="stylesheet" class="alternate-style" title="yellow" href="/skins/yellow.css" type="text/css" disabled>
-  <link rel="stylesheet" href="/Css/styleswitcher.css" type="text/css">
+  <link rel="stylesheet" class="alternate-style" title="pink" href="./skins/pink.css" >
+  <link rel="stylesheet" class="alternate-style" title="blue" href="./skins/blue.css"  disabled>
+  <link rel="stylesheet" class="alternate-style" title="green" href="./skins/green.css"  disabled>
+  <link rel="stylesheet" class="alternate-style" title="orange" href="./skins/orange.css"  disabled>
+  <link rel="stylesheet" class="alternate-style" title="yellow" href="./skins/yellow.css"  disabled>
+  <link rel="stylesheet" href="./css/styleswitcher.css">
+
+  
+  <!-- Live Style Switcher - Demo Only End -->
+
+  <!-- Plugins -->
+  <script defer src="./js/ityped.min.js"></script>
+  <!-- Template js -->
+  <script defer src="./js/script.js"></script>
+  <!-- Live Style Js - Demo Only -->
+  <script defer src="./js/styleswitcher.js"></script>
 </head>
 
 <body>
@@ -38,7 +48,7 @@
       <div class="aside-inner">
         <!-- Logo -->
         <div class="logo">
-          <a href="#">Sneha</a>
+          <a href="#home">Web Works</a>
         </div>
         <!-- Nav -->
         <ul class="nav">
@@ -46,13 +56,13 @@
           <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
           <li><a href="#services"><i class="fa fa-list"></i> Services</a></li>
           <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
-          <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li>
+          <!-- <li><a href="#blog"><i class="fa fa-envelope"></i> Blog</a></li> -->
           <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
         </ul>
         <!-- Copyright -->
-        <div class="copyright-text">
+        <!-- <div class="copyright-text">
           @ 2021 Sneha Gupta
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- Aside End -->
@@ -64,7 +74,7 @@
         <div class="container">
           <div class="intro">
             <img src="/images/profile-pic2.png.jpeg" alt="profile" class="shadow-dark">
-            <h1>Sneha Gupta</h1>
+            <h1>Web Works</h1>
             <span class="iTyped"></span>
             <div class="social-links">
               <a href="#"><i class="fa fa-twitter"></i></a>
@@ -89,14 +99,18 @@
             <div class="about-content padd-15">
               <div class="row">
                 <div class="about-text padd-15">
-                  <h3>I'm Sneha Gupta and <span>Web Developer</span></h3>
-                  <p>Hi! My name is Sneha Gupta. I am a Web Developer, and I'm very passionate and dedicated
-                    to my work. With 1 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration. </p>
+                  <h3><span>Web Work</span></h3>
+                  <p>
+                    
+                    We are team of developers with the skills and 
+                    knowledge necessary to make your project a success. 
+                    Our team members have diverse knowledge about the web and related technologies. Feel free to connect with us.
+                  </p>
                 </div>
               </div>
               <div class="row">
-                <div class="personal-info padd-15">
-                  <!-- <div class="row">
+                <!-- <div class="personal-info padd-15">
+                  <div class="row">
                     <div class="info-item padd-15">
                       <p>Birthday : <span>13 March 2002</span></p>
                     </div>
@@ -120,8 +134,8 @@
                     </div>
                     <div class="info-item padd-15">
                       <p>Freelance : <span>Available</span></p>
-                    </div> -->
-                  </div>
+                    </div>
+                  </div> -->
                   <div class="row">
                     <div class="buttons padd-15">
                       <!-- <a href="#" class="btn">Download Cv</a> -->
@@ -395,12 +409,15 @@
             <div class="portfolio-item padd-15" data-category="web-design">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="portfolio-img">
-                  <img src="/images/track-media.herokuapp.com_home-copy.png" alt="Web Design">
+                  <img src="./images/track-media.herokuapp.com_home-copy.png" alt="Web Design">
                 </div>
                 <div class="portfolio-info">
                   <h4>Web Design</h4>
                   <div class="icon">
                     <i class="fa fa-search"></i>
+                    <a href="https://track-media.herokuapp.com" style="color: #fff;">
+                      Visit
+                    </a>
                   </div>
                 </div>
               </div>
@@ -410,7 +427,7 @@
             <div class="portfolio-item padd-15" data-category="Apps">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="portfolio-img">
-                  <img src="/images/calcy2.png" alt="Apps">
+                  <img src="./images/calcy2.png" alt="Apps">
                 </div>
                 <div class="portfolio-info">
                   <h4>Apps</h4>
@@ -425,12 +442,15 @@
             <div class="portfolio-item padd-15" data-category="Apps">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="portfolio-img">
-                  <img src="/images/birthday-notifier00.herokuapp.com_ (2) - Copy.png" alt="Apps">
+                  <img src="./images/birthday-notifier00.herokuapp.com_ (2) - Copy.png" alt="Apps">
                 </div>
                 <div class="portfolio-info">
                   <h4>Apps</h4>
                   <div class="icon">
                     <i class="fa fa-search"></i>
+                    <a href="https://birthday-notifier00.herokuapp.com" style="color: #fff;">
+                      Visit
+                    </a>
                   </div>
                 </div>
               </div>
@@ -440,12 +460,15 @@
             <div class="portfolio-item padd-15" data-category="web-design">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="portfolio-img">
-                  <img src="/images/personal-website-m4b3ikqn0-vajresh.vercel.app_ (1).png" alt="web design">
+                  <img src="./images/personal-website-m4b3ikqn0-vajresh.vercel.app_ (1).png" alt="web design">
                 </div>
                 <div class="portfolio-info">
                   <h4>web design</h4>
                   <div class="icon">
                     <i class="fa fa-search"></i>
+                    <a href="https://vajresh.vercel.app" style="color: #fff;">
+                      Visit
+                    </a>
                   </div>
                 </div>
               </div>
@@ -455,7 +478,7 @@
             <div class="portfolio-item padd-15" data-category="Others">
               <div class="portfolio-item-inner shadow-dark">
                 <div class="portfolio-img">
-                  <img src="/images/Resume2.png" alt="Others">
+                  <img src="./images/Resume2.png" alt="Others">
                 </div>
                 <div class="portfolio-info">
                   <h4>Others</h4>
@@ -486,73 +509,6 @@
       </section>
       <!-- Portfolio Section End -->
 
-      <!-- Blog Section -->
-      <section class="blog section" id="blog">
-        <div class="container">
-          <div class="row">
-            <div class="section-title padd-15">
-              <h2>Latest Blog</h2>
-            </div>
-          </div>
-          <div class="row">
-            <!-- Blog Item -->
-            <div class="blog-item padd-15">
-              <div class="blog-item-inner shadow-dark">
-                <div class="blog-img">
-                  <img src="images/blog/1.jpg" alt="">
-                  <div class="blog-date">
-                    4 jun 2020
-                  </div>
-                </div>
-                <div class="blog-info">
-                  <h4 class="blog-title">Responsive Web Design</h4>
-                  <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo
-                    quam, eum alias id, repellendus magni, quas.</p>
-                  <p class="blog-tags">Tags : <a href="#">Html</a> , <a href="#">css</a></p>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item End -->
-            <!-- Blog Item -->
-            <div class="blog-item padd-15">
-              <div class="blog-item-inner shadow-dark">
-                <div class="blog-img">
-                  <img src="images/blog/2.jpg" alt="">
-                  <div class="blog-date">
-                    4 jun 2020
-                  </div>
-                </div>
-                <div class="blog-info">
-                  <h4 class="blog-title">Creative Slideshow</h4>
-                  <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo
-                    quam, eum alias id, repellendus magni, quas.</p>
-                  <p class="blog-tags">Tags : <a href="#">Html</a> , <a href="#">Javascript</a></p>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item End -->
-            <!-- Blog Item -->
-            <div class="blog-item padd-15">
-              <div class="blog-item-inner shadow-dark">
-                <div class="blog-img">
-                  <img src="images/blog/3.jpg" alt="">
-                  <div class="blog-date">
-                    4 jun 2020
-                  </div>
-                </div>
-                <div class="blog-info">
-                  <h4 class="blog-title">Image Gallery Lightbox</h4>
-                  <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, porro rem quod illo
-                    quam, eum alias id, repellendus magni, quas.</p>
-                  <p class="blog-tags">Tags : <a href="#">Javascript</a></p>
-                </div>
-              </div>
-            </div>
-            <!-- Blog Item End -->
-          </div>
-        </div>
-      </section>
-      <!-- Blog Section End -->
 
       <!-- Contact Section -->
       <section class="contact section" id="contact">
@@ -567,17 +523,8 @@
             <div class="contact-info-item padd-15">
               <div class="icon">
                 <i class="fa fa-phone"></i>
-                <h4>Call Me On</h4>
+                <h4>Call Us On</h4>
                 <a href="tel:+917977622316">+91 7977 622 316</a>
-              </div>
-            </div>
-            <!-- contact-info-item end -->
-            <!-- contact-info-item  -->
-            <div class="contact-info-item padd-15">
-              <div class="icon">
-                <i class="fa fa-map-marker"></i>
-                <h4>Office</h4>
-                <p>404 Hubtown Solaris, Mumbai, India</p>
               </div>
             </div>
             <!-- contact-info-item end -->
@@ -586,52 +533,11 @@
               <div class="icon">
                 <i class="fa fa-envelope"></i>
                 <h4>Email</h4>
-                <p><a href="mailto:sg806643@gmail.com">sg806643@gmail.com</a></p>
+                <p><a href="mailto:webworks1111@gmail.com">webworks1111@gmail.com</a></p>
               </div>
             </div>
             <!-- contact-info-item end -->
           </div>
-
-          <!-- Contact Form -->
-          <div class="row">
-            <form action="#" class="contact-form padd-15">
-              <div class="row">
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="text" name="" class="form-control" placeholder="Name*">
-                  </div>
-                </div>
-                <div class="form-item col-6 padd-15">
-                  <div class="form-group">
-                    <input type="email" name="" class="form-control" placeholder="Email*">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <input type="text" name="" class="form-control" placeholder="Subject*">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="form-item col-12 padd-15">
-                  <div class="form-group">
-                    <textarea class="form-control" name="" placeholder="Your Message..."></textarea>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 padd-15">
-                  <button type="submit" class="btn">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-          <!-- Contact Form End -->
-        </div>
-      </section>
-      <!-- Contact Section End -->
 
     </div>
     <!-- Main Content End -->
@@ -676,14 +582,6 @@
       <input type="radio" class="body-skin" name="body-skin" value="dark"> Dark
     </label>
   </div>
-  <!-- Live Style Switcher - Demo Only End -->
-
-  <!-- Plugins -->
-  <script src="/Js/ityped.min.js"></script>
-  <!-- Template js -->
-  <script src="/Js/script.js"></script>
-  <!-- Live Style Js - Demo Only -->
-  <script src="/Js/styleswitcher.js"></script>
 </body>
 
 </html>
